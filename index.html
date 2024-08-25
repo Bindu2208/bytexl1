@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .center-text {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="center-text">Random Digit Generator</h2>
+      <label for="min">Min:</label>
+      <input
+        type="number"
+        id="min"
+        name="min"
+        placeholder="Enter minimum value"
+        required
+      />
+      <label for="max">Max:</label>
+      <input
+        type="number"
+        id="max"
+        name="max"
+        placeholder="Enter maximum value"
+        required
+      />
+      <button onclick="generateRandomDigit()">Generate</button>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
